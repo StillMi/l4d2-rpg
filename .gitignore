@@ -1,0 +1,17 @@
+# 构建产物 / 打包目录
+/dist/
+*.zip
+
+# SourcePawn 编译中间文件
+*.tmp
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+*.suo
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# 日志
+*.log

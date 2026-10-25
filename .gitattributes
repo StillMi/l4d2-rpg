@@ -1,0 +1,14 @@
+# 统一换行符，避免 Windows/Linux 之间来回改动整个文件
+* text=auto eol=lf
+
+# SourcePawn 源码
+*.sp   text eol=lf
+*.inc  text eol=lf
+
+# PowerShell 脚本用 CRLF 更省心（Windows 下可直接执行）
+*.ps1  text eol=crlf
+
+# 二进制：编译产物、压缩包、数据库
+*.smx  binary
+*.zip  binary
+*.sq3  binary
